@@ -1,6 +1,6 @@
 # your code goes
-ch=raw_input("enter a letter:")
-if(ch=='A' or ch=='E' or ch=='I' or ch=='O' or ch=='U' or ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):   
-    print("vowel")
+ch=raw_input("enter input:")
+if((ch>='a' and ch<='z')or(ch>='A' and ch<='Z')):
+    print("Alphabet")
 else:
-    print("consonant")
+    print("No")
